@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HiMenu, HiX } from 'react-icons/hi';
 import Footer from './components/Footer';
-import LoadingScreen from './components/loadingscreen';
+import LoadingScreen from './components/LoadingScreen';
 import AnimatedRoutes from './components/AnimatedRoutes';
 
 export default function App() {
