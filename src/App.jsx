@@ -10,12 +10,12 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className=" text-white min-h-screen ">
       {loading ? (
         <LoadingScreen onComplete={() => setLoading(false)} />
       ) : (
         <>
-          <nav className="flex justify-between items-center p-4 md:px-10 relative">
+          <nav className="flex text-black justify-between items-center p-4 md:px-10 ">
             <Link to="/" className="text-xl font-bold">SaloonLogo</Link>
 
             {/* Desktop Nav */}
@@ -33,7 +33,7 @@ export default function App() {
 
             {/* Mobile Nav Menu */}
             {menuOpen && (
-              <div className="absolute top-full left-0 w-full bg-black flex flex-col items-center text-sm gap-4 py-4 md:hidden z-50">
+              <div className=" top-full left-0 w-full bg-black flex flex-col items-center text-sm gap-4 py-4 md:hidden z-50">
                 <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
                 <Link to="/explore" onClick={() => setMenuOpen(false)}>Explore</Link>
                 <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
