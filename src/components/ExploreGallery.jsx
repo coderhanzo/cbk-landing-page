@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import pic from "../assets/imgs/01.jpeg";
+// import pic from "../imgs/01.jpeg";
 
 export default function ExploreGallery() {
   const images = [

@@ -18,31 +18,31 @@ export default function HeroCarousel() {
           interval={4000}
         >
           <div>
-            <img src="/imgs/15.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/15.jpg" alt="Saloon 15" />
           </div>
           <div>
-            <img src="/imgs/16.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/16.jpg" alt="Saloon 16" />
           </div>
           <div>
-            <img src="/imgs/17.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/17.jpg" alt="Saloon 17" />
           </div>
           <div>
-            <img src="/imgs/18.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/18.jpg" alt="Saloon 18" />
           </div>
           <div>
-            <img src="/imgs/19.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/19.jpg" alt="Saloon 19" />
           </div>
           <div>
-            <img src="/imgs/20.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/20.jpg" alt="Saloon 20" />
           </div>
           <div>
-            <img src="/imgs/21.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/21.jpg" alt="Saloon 21" />
           </div>
           <div>
-            <img src="/imgs/22.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/22.jpg" alt="Saloon 22" />
           </div>
           <div>
-            <img src="/imgs/23.jpg" alt="Saloon 1" />
+            <img src="/src/assets/imgs/23.jpg" alt="Saloon 23" />
           </div>
         </Carousel>
       </div>
