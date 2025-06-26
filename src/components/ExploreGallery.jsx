@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 
 export default function ExploreGallery() {
   const images = [
-    "/src/assets/imgs/01.jpeg",
-    "/src/assets/imgs/02.jpeg",
-    "/src/assets/imgs/03.jpeg",
-    "/src/assets/imgs/04.jpeg",
-    "/src/assets/imgs/05.jpeg",
-    "/src/assets/imgs/06.jpeg",
-    "/src/assets/imgs/07.jpeg",
-    "/src/assets/imgs/08.jpeg",
-    "/src/assets/imgs/09.jpeg",
-    "/src/assets/imgs/10.jpeg",
-    "/src/assets/imgs/11.jpeg",
-    "/src/assets/imgs/12.jpeg",
-    "/src/assets/imgs/13.jpeg",
-    "/src/assets/imgs/14.jpg",
+    "/imgs/01.jpeg",
+    "/imgs/02.jpeg",
+    "/imgs/03.jpeg",
+    "/imgs/04.jpeg",
+    "/imgs/05.jpeg",
+    "/imgs/06.jpeg",
+    "/imgs/07.jpeg",
+    "/imgs/08.jpeg",
+    "/imgs/09.jpeg",
+    "/imgs/10.jpeg",
+    "/imgs/11.jpeg",
+    "/imgs/12.jpeg",
+    "/imgs/13.jpeg",
+    "/imgs/14.jpg",
   ];
 
   return (
