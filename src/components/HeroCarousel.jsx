@@ -3,13 +3,13 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import img15 from "../assets/imgs/15.JPG";
 import img16 from "../assets/imgs/16.JPG";
-import img17 from "../assets/imgs/17.jpg";
-import img18 from "../assets/imgs/18.jpg";
-import img19 from "../assets/imgs/19.jpg";
-import img20 from "../assets/imgs/20.jpg";
-import img21 from "../assets/imgs/21.jpg";
-import img22 from "../assets/imgs/22.jpg";
-import img23 from "../assets/imgs/23.jpg";
+import img17 from "../assets/imgs/17.JPG";
+import img18 from "../assets/imgs/18.JPG";
+import img19 from "../assets/imgs/19.JPG";
+import img20 from "../assets/imgs/20.JPG";
+import img21 from "../assets/imgs/21.JPG";
+import img22 from "../assets/imgs/22.JPG";
+import img23 from "../assets/imgs/23.JPG";
 
 export default function HeroCarousel() {
   return (
