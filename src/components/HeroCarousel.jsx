@@ -1,8 +1,15 @@
 import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import img15 from "../assets/imgs/15.jpg";
-import img16 from "../assets/imgs/16.jpg";
+import img15 from "../assets/imgs/15.JPG";
+import img16 from "../assets/imgs/16.JPG";
+import img17 from "../assets/imgs/17.jpg";
+import img18 from "../assets/imgs/18.jpg";
+import img19 from "../assets/imgs/19.jpg";
+import img20 from "../assets/imgs/20.jpg";
+import img21 from "../assets/imgs/21.jpg";
+import img22 from "../assets/imgs/22.jpg";
+import img23 from "../assets/imgs/23.jpg";
 
 export default function HeroCarousel() {
   return (
@@ -26,25 +33,25 @@ export default function HeroCarousel() {
             <img src={img16} alt="Saloon 16" />
           </div>
           <div>
-            <img src="/src/assets/imgs/17.jpg" alt="Saloon 17" />
+            <img src={img17} alt="Saloon 17" />
           </div>
           <div>
-            <img src="/src/assets/imgs/18.jpg" alt="Saloon 18" />
+            <img src={img18} alt="Saloon 18" />
           </div>
           <div>
-            <img src="/src/assets/imgs/19.jpg" alt="Saloon 19" />
+            <img src={img19} alt="Saloon 19" />
           </div>
           <div>
-            <img src="/src/assets/imgs/20.jpg" alt="Saloon 20" />
+            <img src={img20} alt="Saloon 20" />
           </div>
           <div>
-            <img src="/src/assets/imgs/21.jpg" alt="Saloon 21" />
+            <img src={img21} alt="Saloon 21" />
           </div>
           <div>
-            <img src="/src/assets/imgs/22.jpg" alt="Saloon 22" />
+            <img src={img22} alt="Saloon 22" />
           </div>
           <div>
-            <img src="/src/assets/imgs/23.jpg" alt="Saloon 23" />
+            <img src={img23} alt="Saloon 23" />
           </div>
         </Carousel>
       </div>
