@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img15 from "../assets/imgs/15.jpg";
+import img16 from "../assets/imgs/16.jpg";
 
 export default function HeroCarousel() {
   return (
@@ -18,10 +20,10 @@ export default function HeroCarousel() {
           interval={4000}
         >
           <div>
-            <img src="/src/assets/imgs/15.jpg" alt="Saloon 15" />
+            <img src={img15} alt="Saloon 15" />
           </div>
           <div>
-            <img src="/src/assets/imgs/16.jpg" alt="Saloon 16" />
+            <img src={img16} alt="Saloon 16" />
           </div>
           <div>
             <img src="/src/assets/imgs/17.jpg" alt="Saloon 17" />
