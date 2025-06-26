@@ -14,9 +14,9 @@ export default function ExploreGallery() {
     "/imgs/09.jpeg",
     "/imgs/10.jpeg",
     "/imgs/11.jpeg",
-    "/imgs/12.jpeg",
-    "/imgs/13.jpeg",
-    "/imgs/14.jpg",
+    "/imgs/12.JPEG",
+    "/imgs/13.JPEG",
+    "/imgs/14.JPG",
   ];
 
   return (
