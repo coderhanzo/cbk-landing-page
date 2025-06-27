@@ -10,37 +10,68 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className=" text-white min-h-screen ">
+    <div className="text-white min-h-screen">
       {loading ? (
         <LoadingScreen onComplete={() => setLoading(false)} />
       ) : (
         <>
-          <nav className="flex text-black justify-between items-center p-4 md:px-10 ">
-            <Link to="/" className="text-xl font-bold">SaloonLogo</Link>
+          {/* Top Navbar */}
+          <nav
+            className={`relative flex justify-between items-center p-4 md:px-10 transition-all duration-300 ${
+              menuOpen ? 'w-[75%]' : 'w-full'
+            } text-black`}
+          >
+            <Link to="/" className="text-xl font-bold">CBK</Link>
 
             {/* Desktop Nav */}
             <div className="hidden md:flex gap-6 text-sm">
-              <Link to="/explore">Explore Saloon</Link>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/explore" className="hover:underline">Explore Saloon</Link>
+              <Link to="/contact" className="hover:underline">Contact Us</Link>
             </div>
 
             {/* Mobile Nav Toggle */}
             <div className="md:hidden">
-              <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-2xl">
-                {menuOpen ? <HiX /> : <HiMenu />}
+              <button onClick={() => setMenuOpen(true)} className="text-black text-2xl">
+                <HiMenu />
+              </button>
+            </div>
+          </nav>
+
+          {/* Blurred Overlay Background */}
+          {menuOpen && (
+            <div
+              className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
+              onClick={() => setMenuOpen(false)}
+            ></div>
+          )}
+
+          {/* Right-Side Mobile Sidebar Menu */}
+          <div
+            className={`fixed top-0 right-0 h-fit min-h-[20%] w-[40%] bg-black/80 backdrop-blur-md text-white z-50 rounded-l-xl shadow-xl transform ${
+              menuOpen ? 'translate-x-0' : 'translate-x-full'
+            } transition-transform duration-300 ease-in-out`}
+          >
+            <div className="flex items-center justify-between px-4 py-4 border-b border-white/10">
+              <span className="text-lg font-semibold">Menu</span>
+              <button onClick={() => setMenuOpen(false)} className="text-2xl">
+                <HiX />
               </button>
             </div>
 
-            {/* Mobile Nav Menu */}
-            {menuOpen && (
-              <div className=" top-full left-0 w-full bg-black flex flex-col items-center text-sm gap-4 py-4 md:hidden z-50">
-                <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-                <Link to="/explore" onClick={() => setMenuOpen(false)}>Explore</Link>
-                <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-              </div>
-            )}
-          </nav>
+            <div className="flex flex-col px-6 py-6 gap-6 text-base font-medium">
+              <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-gray-300">
+                Home
+              </Link>
+              <Link to="/explore" onClick={() => setMenuOpen(false)} className="hover:text-gray-300">
+                Explore Saloon
+              </Link>
+              <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-gray-300">
+                Contact Us
+              </Link>
+            </div>
+          </div>
 
+          {/* Main Page Content */}
           <AnimatedRoutes />
           <Footer />
         </>
