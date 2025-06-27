@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import HeroCarousel from './HeroCarousel';
 import ExploreGallery from './ExploreGallery';
 import ContactForm from './ContactForm';
+import ComingSoon from './ComingSoon';
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -33,7 +34,8 @@ export default function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<AnimatedPage><HeroCarousel /></AnimatedPage>} />
         <Route path="/explore" element={<AnimatedPage><ExploreGallery /></AnimatedPage>} />
-        <Route path="/contact" element={<AnimatedPage><ContactForm /></AnimatedPage>} />
+        {/* <Route path="/contact" element={<AnimatedPage><ContactForm /></AnimatedPage>} /> */}
+        <Route path="/contact" element={<AnimatedPage><ComingSoon message="Our contact form is almost ready. Stay tuned!" /></AnimatedPage>}/>
       </Routes>
     </AnimatePresence>
   );
