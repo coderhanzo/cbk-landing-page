@@ -52,7 +52,7 @@ export default function App() {
             } transition-transform duration-300 ease-in-out`}
           >
             <div className="flex items-center justify-between px-4 py-4 border-b border-white/10">
-              <span className="text-lg font-semibold">Menu</span>
+              {/* <span className="text-lg font-semibold">Menu</span> */}
               <button onClick={() => setMenuOpen(false)} className="text-2xl">
                 <HiX />
               </button>
