@@ -46,9 +46,9 @@ export default function HeroCarousel() {
       <motion.div
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
-  className="backdrop-blur-sm rounded-lg flex flex-col items-center py-[5rem] w-[65rem] justify-center text-white"
+  className="backdrop-blur-none sm:backdrop-blur-sm rounded-lg flex flex-col items-center py-[5rem] w-[65rem] justify-center"
 >
-  <p className="text-[4rem] ml-4">Experience Beauty Redefined</p>
+  <p className="text-[4rem] m-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] sm:drop-shadow-none">Experience Beauty Redefined</p>
 
   <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-4">
     <a
