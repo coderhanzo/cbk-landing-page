@@ -58,7 +58,7 @@ export default function HeroCarousel() {
     <motion.section
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="relative min-h-[100dvh] flex justify-center items-center overflow-hidden px-4"
+      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden"
     >
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <Carousel
@@ -70,11 +70,7 @@ export default function HeroCarousel() {
           className="h-full"
         >
           {images.map((src, i) => (
-            <div key={i} className="relative h-screen">
-              <div
-                aria-hidden="true"
-                className={`pointer-events-none absolute inset-0 bg-gradient-to-br from-white via-rose-100 to-amber-100 transition-opacity duration-500 ${loaded[i] ? "opacity-0" : "opacity-100 animate-pulse"}`}
-              />
+            <div key={i} className="relative h-screen bg-black">
               <img
                 src={src}
                 alt={`Salon ${i + 1}`}
@@ -85,10 +81,6 @@ export default function HeroCarousel() {
             </div>
           ))}
         </Carousel>
-        <div
-          className="absolute inset-0 bg-slate-900/40"
-          aria-hidden="true"
-        ></div>
       </div>
 
       <motion.div
