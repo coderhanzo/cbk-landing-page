@@ -67,6 +67,7 @@ export default function HeroCarousel() {
           showThumbs={false}
           showStatus={false}
           interval={4000}
+          className="h-full"
         >
           {images.map((src, i) => (
             <div key={i} className="relative h-screen">
@@ -84,7 +85,10 @@ export default function HeroCarousel() {
             </div>
           ))}
         </Carousel>
-        <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
+        <div
+          className="absolute inset-0 bg-slate-900/45 backdrop-blur-sm sm:backdrop-blur md:backdrop-blur-lg"
+          aria-hidden="true"
+        ></div>
       </div>
 
       <motion.div

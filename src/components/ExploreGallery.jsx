@@ -29,11 +29,11 @@ export default function ExploreGallery() {
         <h2 className="mb-10 text-center text-3xl font-semibold text-slate-900">
           Our Saloon & Work
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {images.map((src, i) => (
             <motion.div
               key={i}
-              className="w-full h-[40rem] overflow-hidden rounded-lg shadow-lg"
+              className="w-full overflow-hidden rounded-xl shadow-lg aspect-[4/5] sm:aspect-[3/4] lg:aspect-square"
               whileHover={{ scale: 1.05 }}
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -46,7 +46,7 @@ export default function ExploreGallery() {
                 decoding="async"
                 fetchpriority={i === 0 ? "high" : "auto"}
                 sizes="(min-width: 768px) 33vw, 100vw"
-                className="h-full w-full object-cover transition-transform"
+                className="h-full w-full object-cover transition-transform duration-500"
               />
             </motion.div>
           ))}
