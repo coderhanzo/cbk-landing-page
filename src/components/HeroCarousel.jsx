@@ -86,7 +86,7 @@ export default function HeroCarousel() {
           ))}
         </Carousel>
         <div
-          className="absolute inset-0 bg-slate-900/45 backdrop-blur-sm sm:backdrop-blur md:backdrop-blur-lg"
+          className="absolute inset-0 bg-slate-900/40"
           aria-hidden="true"
         ></div>
       </div>
@@ -94,7 +94,7 @@ export default function HeroCarousel() {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        className="relative mx-auto flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-3xl border border-white/60 bg-white/70 p-8 text-center shadow-[0_25px_70px_rgba(15,23,42,0.2)] backdrop-blur-xl sm:bg-white/60 sm:backdrop-blur-2xl md:p-16"
+        className="relative mx-auto flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-3xl border border-white/60 bg-white/40 p-8 text-center shadow-[0_25px_70px_rgba(15,23,42,0.2)] backdrop-blur-2xl sm:bg-white/30 sm:backdrop-blur-3xl md:p-16"
       >
         <p className="text-3xl font-semibold tracking-tight text-black drop-shadow-[0_2px_6px_rgba(255,255,255,0.2)] sm:text-5xl sm:drop-shadow-none md:text-6xl">
           Experience Beauty Redefined
