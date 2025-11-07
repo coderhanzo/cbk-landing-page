@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -16,19 +16,43 @@ const images = [
 ];
 
 export default function HeroCarousel() {
+  const [loaded, setLoaded] = useState(() => images.map(() => false));
+
+  const markImageLoaded = useCallback((index) => {
+    setLoaded((prev) => {
+      if (prev[index]) {
+        return prev;
+      }
+
+      const next = [...prev];
+      next[index] = true;
+      return next;
+    });
+  }, []);
+
   useEffect(() => {
-    const preloadedImages = images.map((src) => {
+    let isMounted = true;
+    const preloadedImages = images.map((src, index) => {
       const img = new Image();
+      const handleLoad = () => {
+        if (isMounted) {
+          markImageLoaded(index);
+        }
+      };
+
+      img.addEventListener("load", handleLoad);
       img.src = src;
-      return img;
+      return () => {
+        img.removeEventListener("load", handleLoad);
+        img.src = "";
+      };
     });
 
     return () => {
-      preloadedImages.forEach((img) => {
-        img.src = "";
-      });
+      isMounted = false;
+      preloadedImages.forEach((cleanup) => cleanup());
     };
-  }, []);
+  }, [markImageLoaded]);
 
   return (
     <motion.section
@@ -44,17 +68,21 @@ export default function HeroCarousel() {
           showStatus={false}
           interval={4000}
         >
-          {
-            images.map((src, i) => (
-              <div key={i}>
-                <img
-                  src={src}
-                  alt={`Salon ${i + 1}`}
-                  className="w-full h-screen object-cover"
-                />
-              </div>
-            ))
-          }
+          {images.map((src, i) => (
+            <div key={i} className="relative h-screen">
+              <div
+                aria-hidden="true"
+                className={`pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900 transition-opacity duration-500 ${loaded[i] ? "opacity-0" : "opacity-100 animate-pulse"}`}
+              />
+              <img
+                src={src}
+                alt={`Salon ${i + 1}`}
+                loading="lazy"
+                onLoad={() => markImageLoaded(i)}
+                className={`h-screen w-full object-cover transition-opacity duration-700 ease-out ${loaded[i] ? "opacity-100" : "opacity-0"}`}
+              />
+            </div>
+          ))}
         </Carousel>
         <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
       </div>
