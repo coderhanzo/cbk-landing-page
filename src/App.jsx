@@ -17,9 +17,9 @@ export default function App() {
         <>
           {/* Top Navbar */}
           <nav
-            className={`relative mx-auto mt-6 flex items-center justify-between rounded-full border border-white/60 bg-white/60 px-6 py-4 shadow-lg backdrop-blur-xl supports-[backdrop-filter]:bg-white/45 md:px-10 ${
+            className={`relative mx-auto mt-6 flex items-center justify-between px-6 py-4 text-slate-900 md:px-10 ${
               menuOpen ? 'w-[82%] max-w-4xl' : 'w-[92%] max-w-5xl'
-            } transition-all duration-300 text-slate-900`}
+            } transition-all duration-300`}
           >
             <Link to="/" className="text-xl font-bold">CBK</Link>
 
