@@ -72,7 +72,7 @@ export default function HeroCarousel() {
             <div key={i} className="relative h-screen">
               <div
                 aria-hidden="true"
-                className={`pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900 transition-opacity duration-500 ${loaded[i] ? "opacity-0" : "opacity-100 animate-pulse"}`}
+                className={`pointer-events-none absolute inset-0 bg-gradient-to-br from-white via-rose-100 to-amber-100 transition-opacity duration-500 ${loaded[i] ? "opacity-0" : "opacity-100 animate-pulse"}`}
               />
               <img
                 src={src}
@@ -90,7 +90,7 @@ export default function HeroCarousel() {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        className="relative mx-auto flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-3xl border border-white/20 bg-white/25 p-8 text-center shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-xl sm:border-white/30 sm:bg-white/15 sm:backdrop-blur-2xl md:p-16"
+        className="relative mx-auto flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-3xl border border-white/60 bg-white/70 p-8 text-center shadow-[0_25px_70px_rgba(15,23,42,0.2)] backdrop-blur-xl sm:bg-white/60 sm:backdrop-blur-2xl md:p-16"
       >
         <p className="text-3xl font-semibold tracking-tight text-black drop-shadow-[0_2px_6px_rgba(255,255,255,0.2)] sm:text-5xl sm:drop-shadow-none md:text-6xl">
           Experience Beauty Redefined
