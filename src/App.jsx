@@ -10,16 +10,16 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="text-white min-h-screen">
+    <div className="min-h-screen text-slate-900">
       {loading ? (
         <LoadingScreen onComplete={() => setLoading(false)} />
       ) : (
         <>
           {/* Top Navbar */}
           <nav
-            className={`relative flex justify-between items-center p-4 md:px-10 transition-all duration-300 ${
-              menuOpen ? 'w-[75%]' : 'w-full'
-            } text-black`}
+            className={`relative mx-auto mt-6 flex items-center justify-between rounded-full border border-white/60 bg-white/60 px-6 py-4 shadow-lg backdrop-blur-xl supports-[backdrop-filter]:bg-white/45 md:px-10 ${
+              menuOpen ? 'w-[82%] max-w-4xl' : 'w-[92%] max-w-5xl'
+            } transition-all duration-300 text-slate-900`}
           >
             <Link to="/" className="text-xl font-bold">CBK</Link>
 
@@ -31,7 +31,7 @@ export default function App() {
 
             {/* Mobile Nav Toggle */}
             <div className="md:hidden">
-              <button onClick={() => setMenuOpen(true)} className="text-black text-2xl">
+              <button onClick={() => setMenuOpen(true)} className="text-2xl text-slate-900">
                 <HiMenu />
               </button>
             </div>
@@ -40,14 +40,14 @@ export default function App() {
           {/* Blurred Overlay Background */}
           {menuOpen && (
             <div
-              className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
+              className="fixed inset-0 z-40 bg-slate-900/30 backdrop-blur-sm"
               onClick={() => setMenuOpen(false)}
             ></div>
           )}
 
           {/* Right-Side Mobile Sidebar Menu */}
           <div
-            className={`fixed top-0 right-0 h-fit min-h-[20%] w-[40%] bg-black/80 backdrop-blur-md text-white z-50 rounded-l-xl shadow-xl transform ${
+            className={`fixed top-0 right-0 z-50 h-fit min-h-[20%] w-[70%] max-w-xs transform rounded-l-3xl bg-slate-900/90 text-white shadow-xl backdrop-blur-md ${
               menuOpen ? 'translate-x-0' : 'translate-x-full'
             } transition-transform duration-300 ease-in-out`}
           >
