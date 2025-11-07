@@ -86,7 +86,7 @@ export default function HeroCarousel() {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        className="relative mx-auto flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-3xl border border-white/60 bg-white/40 p-8 text-center shadow-[0_25px_70px_rgba(15,23,42,0.2)] backdrop-blur-2xl sm:bg-white/30 sm:backdrop-blur-3xl md:p-16"
+        className="relative mx-4 flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-3xl border border-white/60 bg-white/40 px-6 py-8 text-center shadow-[0_25px_70px_rgba(15,23,42,0.2)] backdrop-blur-2xl sm:mx-auto sm:bg-white/30 sm:px-8 sm:backdrop-blur-3xl md:p-16"
       >
         <p className="text-3xl font-semibold tracking-tight text-black drop-shadow-[0_2px_6px_rgba(255,255,255,0.2)] sm:text-5xl sm:drop-shadow-none md:text-6xl">
           Experience Beauty Redefined
