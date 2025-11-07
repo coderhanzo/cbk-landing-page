@@ -1,17 +1,39 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function LoadingScreen({ onComplete }) {
   const saloonName = "CBK Beauty";
   const words = `Welcome to ${saloonName}`.split(" ");
+  const [isFadingOut, setIsFadingOut] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => onComplete(), words.length * 500 + 1000);
-    return () => clearTimeout(timer);
-  }, [onComplete, words.length]);
+    const displayDuration = words.length * 500 + 1000;
+    const fadeTimer = setTimeout(() => {
+      setIsFadingOut(true);
+    }, displayDuration);
+
+    return () => clearTimeout(fadeTimer);
+  }, [words.length]);
+
+  useEffect(() => {
+    if (!isFadingOut) {
+      return undefined;
+    }
+
+    const completionTimer = setTimeout(() => {
+      onComplete();
+    }, 600);
+
+    return () => clearTimeout(completionTimer);
+  }, [isFadingOut, onComplete]);
 
   return (
-    <div className="relative flex items-center justify-center h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white text-3xl md:text-5xl font-bold overflow-hidden">
+    <motion.div
+      initial={{ opacity: 1 }}
+      animate={{ opacity: isFadingOut ? 0 : 1 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+      className="relative flex h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-3xl font-bold text-white md:text-5xl"
+    >
       <div className="absolute inset-0 z-0 pointer-events-none">
         {[...Array(30)].map((_, i) => (
           <motion.span
@@ -47,6 +69,6 @@ export default function LoadingScreen({ onComplete }) {
           </motion.span>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
