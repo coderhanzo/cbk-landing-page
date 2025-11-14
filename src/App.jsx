@@ -17,7 +17,7 @@ export default function App() {
         <>
           {/* Top Navbar */}
           <nav
-            className={`relative mx-auto mt-6 flex items-center justify-between px-6 py-4 text-slate-900 md:px-10 ${
+            className={`relative mx-auto mt-4 flex items-center justify-between px-4 py-3 text-slate-900 md:mt-5 md:px-8 ${
               menuOpen ? 'w-[82%] max-w-4xl' : 'w-[92%] max-w-5xl'
             } transition-all duration-300`}
           >
@@ -47,18 +47,18 @@ export default function App() {
 
           {/* Right-Side Mobile Sidebar Menu */}
           <div
-            className={`fixed top-0 right-0 z-50 h-fit min-h-[20%] w-[70%] max-w-xs transform rounded-l-3xl bg-slate-900/90 text-white shadow-xl backdrop-blur-md ${
+            className={`fixed top-0 right-0 z-50 h-fit min-h-[14%] w-[58%] max-w-[220px] transform rounded-l-3xl bg-slate-900/90 text-white shadow-xl backdrop-blur-md ${
               menuOpen ? 'translate-x-0' : 'translate-x-full'
             } transition-transform duration-300 ease-in-out`}
           >
-            <div className="flex items-center justify-between px-4 py-4 border-b border-white/10">
+            <div className="flex items-center justify-between px-4 py-3 border-b border-white/10">
               {/* <span className="text-lg font-semibold">Menu</span> */}
               <button onClick={() => setMenuOpen(false)} className="text-2xl">
                 <HiX />
               </button>
             </div>
 
-            <div className="flex flex-col px-6 py-6 gap-6 text-base font-medium">
+            <div className="flex flex-col px-5 py-5 gap-5 text-base font-medium">
               <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-gray-300">
                 Home
               </Link>
