@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import LazyImage from "./LazyImage";
 
 const images = [
   "/imgs/15.JPG",
@@ -16,43 +17,25 @@ const images = [
 ];
 
 export default function HeroCarousel() {
-  const [loaded, setLoaded] = useState(() => images.map(() => false));
+  const [visibleIndices, setVisibleIndices] = useState([0, 1]);
 
-  const markImageLoaded = useCallback((index) => {
-    setLoaded((prev) => {
-      if (prev[index]) {
+  const revealIndex = useCallback((index) => {
+    setVisibleIndices((prev) => {
+      if (prev.includes(index)) {
         return prev;
       }
 
-      const next = [...prev];
-      next[index] = true;
-      return next;
+      return [...prev, index];
     });
   }, []);
 
-  useEffect(() => {
-    let isMounted = true;
-    const preloadedImages = images.map((src, index) => {
-      const img = new Image();
-      const handleLoad = () => {
-        if (isMounted) {
-          markImageLoaded(index);
-        }
-      };
-
-      img.addEventListener("load", handleLoad);
-      img.src = src;
-      return () => {
-        img.removeEventListener("load", handleLoad);
-        img.src = "";
-      };
-    });
-
-    return () => {
-      isMounted = false;
-      preloadedImages.forEach((cleanup) => cleanup());
-    };
-  }, [markImageLoaded]);
+  const handleSlideChange = useCallback(
+    (index) => {
+      revealIndex(index);
+      revealIndex((index + 1) % images.length);
+    },
+    [revealIndex]
+  );
 
   return (
     <motion.section
@@ -67,17 +50,24 @@ export default function HeroCarousel() {
           showThumbs={false}
           showStatus={false}
           interval={4000}
+          onChange={handleSlideChange}
           className="h-full"
         >
           {images.map((src, i) => (
             <div key={i} className="relative h-screen bg-black">
-              <img
-                src={src}
-                alt={`Salon ${i + 1}`}
-                loading="lazy"
-                onLoad={() => markImageLoaded(i)}
-                className={`h-screen w-full object-cover transition-opacity duration-700 ease-out ${loaded[i] ? "opacity-100" : "opacity-0"}`}
-              />
+              {visibleIndices.includes(i) ? (
+                <LazyImage
+                  src={src}
+                  alt={`Salon ${i + 1}`}
+                  className="h-screen w-full object-cover"
+                  loading={i === 0 ? "eager" : "lazy"}
+                  fetchpriority={i === 0 ? "high" : "auto"}
+                  sizes="100vw"
+                  observerMargin="320px"
+                />
+              ) : (
+                <div className="h-full w-full bg-slate-800/60" aria-hidden />
+              )}
             </div>
           ))}
         </Carousel>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-// import pic from "../imgs/01.jpeg";
+import LazyImage from "./LazyImage";
 
 export default function ExploreGallery() {
   const images = [
@@ -24,7 +24,7 @@ export default function ExploreGallery() {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="mx-auto max-w-6xl py-16 px-4 md:px-12"
+        className="mx-auto max-w-6xl px-4 pt-10 pb-16 md:px-10"
       >
         <h2 className="mb-10 text-center text-3xl font-semibold text-slate-900">
           Our Saloon & Work
@@ -39,14 +39,14 @@ export default function ExploreGallery() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: i * 0.2, duration: 0.4 }}
             >
-              <img
+              <LazyImage
                 src={src}
                 alt={`Work ${i + 1}`}
                 loading={i === 0 ? "eager" : "lazy"}
-                decoding="async"
                 fetchpriority={i === 0 ? "high" : "auto"}
-                sizes="(min-width: 768px) 33vw, 100vw"
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 className="h-full w-full object-cover transition-transform duration-500"
+                observerMargin="250px"
               />
             </motion.div>
           ))}
