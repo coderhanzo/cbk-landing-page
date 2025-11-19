@@ -1,26 +1,27 @@
 import { useEffect, useRef, useState } from 'react';
+import { createBlurDataURL, getImageDimensions } from '../utils/imageUtils';
 
-const TRANSPARENT_PIXEL =
-  'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+const TRANSPARENT_PIXEL = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
 
 export default function LazyImage({
   src,
   alt,
   className = '',
   onLoad,
-  observerMargin = '180px',
+  observerMargin = '50px',
   ...props
 }) {
   const imgRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const [hasLoaded, setHasLoaded] = useState(false);
+  const [dimensions] = useState(() => getImageDimensions(src));
+  const [placeholder] = useState(() => createBlurDataURL(dimensions.width, dimensions.height));
 
   useEffect(() => {
     const node = imgRef.current;
-    if (!node) {
-      return undefined;
-    }
+    if (!node) return undefined;
 
+    // Reset state when src changes
     setHasLoaded(false);
 
     if ('loading' in HTMLImageElement.prototype) {
@@ -38,7 +39,10 @@ export default function LazyImage({
           }
         });
       },
-      { rootMargin: observerMargin }
+      { 
+        rootMargin: observerMargin,
+        threshold: 0.1
+      }
     );
 
     observer.observe(node);
@@ -46,7 +50,7 @@ export default function LazyImage({
     return () => {
       observer.disconnect();
     };
-  }, [observerMargin, src]);
+  }, [src, observerMargin]);
 
   const handleLoad = (event) => {
     setHasLoaded(true);
@@ -55,17 +59,24 @@ export default function LazyImage({
     }
   };
 
+  const handleError = () => {
+    setHasLoaded(true);
+  };
+
   return (
     <img
       ref={imgRef}
-      src={isVisible ? src : TRANSPARENT_PIXEL}
+      src={isVisible ? src : placeholder}
       alt={alt}
-      className={`transition-opacity duration-500 ease-out ${
+      width={dimensions.width}
+      height={dimensions.height}
+      className={`transition-opacity duration-300 ease-out ${
         hasLoaded ? 'opacity-100' : 'opacity-0'
       } ${className}`}
       loading="lazy"
       decoding="async"
       onLoad={handleLoad}
+      onError={handleError}
       {...props}
     />
   );

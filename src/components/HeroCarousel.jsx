@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import { useCallback, useState } from "react";
+import { useCallback, useState, useMemo } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import LazyImage from "./LazyImage";
+import { preloadImages } from "../utils/imageUtils";
 
 const images = [
   "/imgs/15.JPG",
@@ -19,6 +20,11 @@ const images = [
 export default function HeroCarousel() {
   const [visibleIndices, setVisibleIndices] = useState([0, 1]);
 
+  // Preload critical images on component mount
+  useMemo(() => {
+    preloadImages(images.slice(0, 2));
+  }, []);
+
   const revealIndex = useCallback((index) => {
     setVisibleIndices((prev) => {
       if (prev.includes(index)) return prev;
@@ -29,9 +35,15 @@ export default function HeroCarousel() {
   const handleSlideChange = useCallback(
     (index) => {
       revealIndex(index);
-      revealIndex((index + 1) % images.length);
+      // Preload next image
+      const nextIndex = (index + 1) % images.length;
+      if (!visibleIndices.includes(nextIndex)) {
+        const img = new Image();
+        img.src = images[nextIndex];
+      }
+      revealIndex(nextIndex);
     },
-    [revealIndex]
+    [revealIndex, visibleIndices]
   );
 
   return (
@@ -48,7 +60,8 @@ export default function HeroCarousel() {
           onChange={handleSlideChange}
           className="h-full"
           stopOnHover={false}
-          swipeable={false}
+          swipeable={true}
+          transitionTime={400}
         >
           {images.map((src, i) => (
             <div key={i} className="relative h-full bg-gray-900">
@@ -57,16 +70,15 @@ export default function HeroCarousel() {
                   src={src}
                   alt={`Salon ${i + 1}`}
                   className="h-full w-full object-cover"
-                  loading={i === 0 ? "eager" : "lazy"}
+                  loading={i < 2 ? "eager" : "lazy"}
                   fetchpriority={i === 0 ? "high" : "auto"}
                   sizes="100vw"
-                  observerMargin="320px"
+                  observerMargin="100px"
                 />
               ) : (
-                <div className="h-full w-full bg-gray-800/60 animate-pulse" />
+                <div className="h-full w-full bg-gradient-to-br from-gray-800 to-gray-700 animate-pulse" />
               )}
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/30" />
+              <div className="absolute inset-0 bg-black/25" />
             </div>
           ))}
         </Carousel>
@@ -75,61 +87,37 @@ export default function HeroCarousel() {
       {/* Hero Content */}
       <div className="relative z-10 mx-4 max-w-4xl w-full">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center text-white px-4"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
-              Beauty
-            </span>
+            <span className="text-white drop-shadow-lg">Beauty</span>
             <br />
-            <span className="bg-gradient-to-r from-gray-200 to-gray-300 bg-clip-text text-transparent">
-              Redefined
-            </span>
+            <span className="text-gray-100 drop-shadow-lg">Redefined</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow">
             Experience luxury beauty treatments in the heart of Accra
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <motion.a
+            <a
               href="https://www.coloursbyk.com/"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold text-base shadow-xl shadow-black/25 hover:shadow-2xl transition-all duration-300 hover:bg-gray-50 w-full sm:w-auto text-center"
             >
               Shop Products
-            </motion.a>
-            <motion.a
+            </a>
+            <a
               href="https://www.fresha.com/a/cbk-beauty-flagship-salon-accra-agostinho-neto-road-umdarsv9"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               className="border-2 border-white text-white px-6 py-3 rounded-full font-semibold text-base backdrop-blur-sm bg-white/10 hover:bg-white/20 transition-all duration-300 shadow-xl shadow-black/25 w-full sm:w-auto text-center"
             >
               Book Appointment
-            </motion.a>
+            </a>
           </div>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10"
-      >
-        <div className="w-5 h-8 border-2 border-white/50 rounded-full flex justify-center">
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-1 h-2 bg-white/50 rounded-full mt-2"
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }

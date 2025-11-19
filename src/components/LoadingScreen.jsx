@@ -7,7 +7,7 @@ export default function LoadingScreen({ onComplete }) {
   const [isFadingOut, setIsFadingOut] = useState(false);
 
   useEffect(() => {
-    const displayDuration = words.length * 500 + 1000;
+    const displayDuration = words.length * 300 + 600; // Reduced duration
     const fadeTimer = setTimeout(() => {
       setIsFadingOut(true);
     }, displayDuration);
@@ -22,7 +22,7 @@ export default function LoadingScreen({ onComplete }) {
 
     const completionTimer = setTimeout(() => {
       onComplete();
-    }, 600);
+    }, 400); // Faster fade out
 
     return () => clearTimeout(completionTimer);
   }, [isFadingOut, onComplete]);
@@ -31,11 +31,12 @@ export default function LoadingScreen({ onComplete }) {
     <motion.div
       initial={{ opacity: 1 }}
       animate={{ opacity: isFadingOut ? 0 : 1 }}
-      transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="relative flex h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-3xl font-bold text-white md:text-5xl"
+      transition={{ duration: 0.4, ease: "easeInOut" }} // Faster transition
+      className="relative flex h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-2xl font-bold text-white md:text-4xl"
     >
+      {/* Reduced number of animated elements */}
       <div className="absolute inset-0 z-0 pointer-events-none">
-        {[...Array(30)].map((_, i) => (
+        {[...Array(15)].map((_, i) => ( // Reduced from 30 to 15
           <motion.span
             key={i}
             className="absolute w-1 h-1 bg-white rounded-full opacity-10"
@@ -44,26 +45,29 @@ export default function LoadingScreen({ onComplete }) {
               left: `${Math.random() * 100}%`,
             }}
             animate={{
-              y: [0, -40],
-              opacity: [0.1, 0.4, 0.1],
+              y: [0, -20], // Reduced movement
+              opacity: [0.1, 0.3, 0.1],
             }}
             transition={{
               repeat: Infinity,
-              duration: 5 + Math.random() * 5,
-              delay: Math.random() * 2,
+              duration: 3 + Math.random() * 3, // Faster animation
+              delay: Math.random() * 1,
               ease: "easeInOut",
             }}
           />
         ))}
       </div>
 
-      <div className="z-10 flex gap-3">
+      <div className="z-10 flex gap-2">
         {words.map((word, i) => (
           <motion.span
             key={i}
-            initial={{ opacity: 0, y: 10 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: i * 0.5 }}
+            transition={{ 
+              delay: i * 0.3, // Faster sequential appearance
+              duration: 0.4 
+            }}
           >
             {word}
           </motion.span>

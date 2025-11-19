@@ -7,9 +7,9 @@ import ContactForm from './ContactForm';
 import ComingSoon from './ComingSoon';
 
 const pageVariants = {
-  initial: { opacity: 0, y: 20 },
+  initial: { opacity: 0, y: 10 },
   animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -20 },
+  exit: { opacity: 0, y: -10 },
 };
 
 function AnimatedPage({ children }) {
@@ -19,7 +19,7 @@ function AnimatedPage({ children }) {
       initial="initial"
       animate="animate"
       exit="exit"
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.3 }} // Faster page transitions
     >
       {children}
     </motion.div>
@@ -34,7 +34,6 @@ export default function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<AnimatedPage><HeroCarousel /></AnimatedPage>} />
         <Route path="/explore" element={<AnimatedPage><ExploreGallery /></AnimatedPage>} />
-        {/* <Route path="/contact" element={<AnimatedPage><ContactForm /></AnimatedPage>} /> */}
         <Route path="/contact" element={<AnimatedPage><ComingSoon message="Our contact form is almost ready. Stay tuned!" /></AnimatedPage>}/>
       </Routes>
     </AnimatePresence>
