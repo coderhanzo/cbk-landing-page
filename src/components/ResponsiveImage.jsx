@@ -16,6 +16,7 @@ export default function ResponsiveImage({
   imageKey,
   alt,
   className = "",
+  pictureClassName = "",
   sizes = "100vw",
   priority = false,
   loading,
@@ -84,8 +85,10 @@ export default function ResponsiveImage({
 
   const imgClassName = `transition-opacity duration-300 ease-out ${className}`.trim();
 
+  const wrapperClassName = ["block", pictureClassName].filter(Boolean).join(" ");
+
   return (
-    <picture>
+    <picture className={wrapperClassName}>
       {avifSrcSet && <source type="image/avif" srcSet={avifSrcSet} sizes={sizes} />}
       {webpSrcSet && <source type="image/webp" srcSet={webpSrcSet} sizes={sizes} />}
       <img

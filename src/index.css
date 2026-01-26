@@ -25,3 +25,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* Ensure hero carousel fills its container height */
+.carousel.carousel-slider,
+.carousel .slider-wrapper,
+.carousel .slider,
+.carousel .slide {
+  height: 100%;
+}
+
+.carousel .slide > div {
+  height: 100%;
+}
