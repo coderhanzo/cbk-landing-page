@@ -9,13 +9,20 @@ export default function LazyImage({
   className = '',
   onLoad,
   observerMargin = '50px',
+  staticRender = false,
   ...props
 }) {
   const imgRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
+  const supportsNativeLazy =
+    typeof window !== 'undefined' &&
+    typeof HTMLImageElement !== 'undefined' &&
+    'loading' in HTMLImageElement.prototype;
+  const [isVisible, setIsVisible] = useState(() => staticRender || supportsNativeLazy);
   const [hasLoaded, setHasLoaded] = useState(false);
   const [dimensions] = useState(() => getImageDimensions(src));
-  const [placeholder] = useState(() => createBlurDataURL(dimensions.width, dimensions.height));
+  const [placeholder] = useState(() =>
+    staticRender ? null : createBlurDataURL(dimensions.width, dimensions.height)
+  );
 
   useEffect(() => {
     const node = imgRef.current;
@@ -24,7 +31,7 @@ export default function LazyImage({
     // Reset state when src changes
     setHasLoaded(false);
 
-    if ('loading' in HTMLImageElement.prototype) {
+    if (staticRender || supportsNativeLazy) {
       setIsVisible(true);
       return undefined;
     }
@@ -50,7 +57,7 @@ export default function LazyImage({
     return () => {
       observer.disconnect();
     };
-  }, [src, observerMargin]);
+  }, [src, observerMargin, staticRender, supportsNativeLazy]);
 
   const handleLoad = (event) => {
     setHasLoaded(true);
@@ -66,7 +73,7 @@ export default function LazyImage({
   return (
     <img
       ref={imgRef}
-      src={isVisible ? src : placeholder}
+      src={isVisible ? src : placeholder || src}
       alt={alt}
       width={dimensions.width}
       height={dimensions.height}

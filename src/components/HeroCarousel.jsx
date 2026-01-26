@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useCallback, useState, useMemo } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import LazyImage from "./LazyImage";
@@ -17,12 +17,44 @@ const images = [
   "/imgs/23.JPG",
 ];
 
+function HeroImageSkeleton() {
+  return (
+    <div
+      aria-hidden="true"
+      className="absolute inset-0 overflow-hidden bg-gradient-to-br from-gray-200 via-gray-100 to-gray-200"
+    >
+      <div className="absolute inset-0 animate-pulse bg-gradient-to-r from-transparent via-white/70 to-transparent" />
+      <div className="relative flex h-full flex-col justify-between p-8">
+        <div className="space-y-4">
+          <div className="h-4 w-1/3 rounded-full bg-white/70" />
+          <div className="h-4 w-2/5 rounded-full bg-white/50" />
+        </div>
+        <div className="space-y-3">
+          <div className="h-2.5 w-full rounded-full bg-white/50" />
+          <div className="h-2.5 w-5/6 rounded-full bg-white/40" />
+          <div className="h-2.5 w-2/3 rounded-full bg-white/30" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function HeroCarousel() {
   const [visibleIndices, setVisibleIndices] = useState([0, 1]);
+  const [loadedIndices, setLoadedIndices] = useState(() => new Set());
 
-  // Preload critical images on component mount
-  useMemo(() => {
-    preloadImages(images.slice(0, 2));
+  // Preload all hero images on mount
+  useEffect(() => {
+    preloadImages(images);
+  }, []);
+
+  const handleImageLoad = useCallback((index) => {
+    setLoadedIndices((prev) => {
+      if (prev.has(index)) return prev;
+      const next = new Set(prev);
+      next.add(index);
+      return next;
+    });
   }, []);
 
   const revealIndex = useCallback((index) => {
@@ -63,24 +95,29 @@ export default function HeroCarousel() {
           swipeable={true}
           transitionTime={400}
         >
-          {images.map((src, i) => (
-            <div key={i} className="relative h-full bg-gray-900">
-              {visibleIndices.includes(i) ? (
-                <LazyImage
-                  src={src}
-                  alt={`Salon ${i + 1}`}
-                  className="h-full w-full object-cover"
-                  loading={i < 2 ? "eager" : "lazy"}
-                  fetchpriority={i === 0 ? "high" : "auto"}
-                  sizes="100vw"
-                  observerMargin="100px"
-                />
-              ) : (
-                <div className="h-full w-full bg-gradient-to-br from-gray-800 to-gray-700 animate-pulse" />
-              )}
-              <div className="absolute inset-0 bg-black/25" />
-            </div>
-          ))}
+          {images.map((src, i) => {
+            const isVisible = visibleIndices.includes(i);
+            const isLoaded = loadedIndices.has(i);
+
+            return (
+              <div key={i} className="relative h-full bg-gray-900 overflow-hidden">
+                {!isLoaded && <HeroImageSkeleton />}
+                {isVisible && (
+                  <LazyImage
+                    src={src}
+                    alt={`Salon ${i + 1}`}
+                    className="h-full w-full object-cover"
+                    loading={i < 2 ? "eager" : "lazy"}
+                    fetchpriority={i === 0 ? "high" : "auto"}
+                    sizes="100vw"
+                    observerMargin="100px"
+                    onLoad={() => handleImageLoad(i)}
+                  />
+                )}
+                <div className="absolute inset-0 bg-black/25" />
+              </div>
+            );
+          })}
         </Carousel>
       </div>
 

@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-base font-semibold mb-3">Connect</h4>
+            <h4 className="text-base font-semibold mb-3">Connect with Us</h4>
             <div className="flex gap-3">
               {socialLinks.map((social, index) => {
                 const Icon = social.icon;
