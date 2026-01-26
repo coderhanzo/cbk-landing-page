@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import LazyImage from "./LazyImage";
+import ResponsiveImage from "./ResponsiveImage";
 
 export default function ExploreGallery() {
   const images = [
@@ -10,11 +10,6 @@ export default function ExploreGallery() {
   ];
 
   // Prioritize first row of images
-  const prioritizedImages = images.map((src, index) => ({
-    src,
-    priority: index < 6, // First 6 images get higher priority
-  }));
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -62,21 +57,17 @@ export default function ExploreGallery() {
           animate="visible"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
         >
-          {prioritizedImages.map(({ src, priority }, i) => (
+          {images.map((src, i) => (
             <motion.div
               key={i}
               variants={itemVariants}
               className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 aspect-[3/4]"
             >
-              <LazyImage
-                src={src}
+              <ResponsiveImage
+                imageKey={src}
                 alt={`Salon work ${i + 1}`}
-                loading={priority ? "eager" : "lazy"}
-                fetchpriority={priority ? "high" : "auto"}
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                observerMargin="50px" // Reduced margin
-                staticRender
               />
             </motion.div>
           ))}

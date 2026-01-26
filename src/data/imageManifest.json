@@ -1,0 +1,1837 @@
+{
+  "/imgs/01.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EACAQAAICAgICAwAAAAAAAAAAAAECAAMREiExBBMUImH/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBP/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8AdUjaRvHzYDsNWHc3CLnsTmbJGrhLGRdR+8QjRPR7UJDAfcdw9NlWWDZjoxj7E8GWgm+aaV1dM5PEJp5NaWVgEddGERD/2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/01-320-286d5a26.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/01-480-85f36e8b.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/01-768-3a969c63.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/01-864-fb931da2.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/01-320-d7a281f4.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/01-480-678c075e.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/01-768-e48290eb.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/01-864-e894ac8b.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/01-320-6b993f08.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/01-480-cebd4c2f.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/01-768-7b040cd6.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/01-864-216bbdc2.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/02.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACA//EAB4QAAIDAQACAwAAAAAAAAAAAAECAAMRIQQxBRKh/8QAGAEBAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AHivJoJghKfLLMBsYlwdgozDOZs0Kgw4OynWhhjgn16lBo6+PSOquGcbaQHX6npiFM1wnoEtZoFZY1Fmjefsoj5BlTxSSumUiwf/2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/02-320-1b18a5aa.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/02-480-ffd8941c.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/02-768-f9f17ff7.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/02-864-982a7b06.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/02-320-26166610.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/02-480-4275c3ed.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/02-768-f32e6b68.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/02-864-915dfbb5.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/02-320-664f1234.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/02-480-d88e4fe9.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/02-768-73e86b51.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/02-864-292dd3e9.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/03.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwH/xAAhEAABBAICAgMAAAAAAAAAAAABAAIDEQQSIUEFIhMxUf/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKIpdsLOQFgtLu5Z1TPJo0hLuSSDyhAU/MzJZclsUYc0A812kE0jssRskcG/RtWGsZttoL/UjcOJs5mA9irESp8iSLKDBN692hbeRwRJP8gcAOwhLcGa/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/03-320-f8d22171.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/03-480-18008b6d.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/03-768-2a8f4281.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/03-864-bb3caec1.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/03-320-e8b103ac.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/03-480-9b50dc36.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/03-768-cb99f76d.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/03-864-108887b4.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/03-320-8828d9de.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/03-480-1fc23301.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/03-768-5d835093.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/03-864-60ee7549.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/04.jpeg": {
+    "width": 1080,
+    "height": 720,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAHxAAAgMAAQUBAAAAAAAAAAAAAQIAAxEEEhMhMUFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwBRQakLN6ESo1vX1bghqDZU4YnzN8NE7WEaB8gYVtqEcHDsoPJWypWehs/JTZFdf//Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/04-320-5bcf7007.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/04-480-12208f62.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/04-768-90c570f1.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/04-1024-d7d03bb9.avif"
+        },
+        {
+          "width": 1080,
+          "src": "/images/generated/avif/04-1080-0458dd77.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/04-320-824ce856.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/04-480-8dcf19ca.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/04-768-c2c8ac47.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/04-1024-d97b24ce.webp"
+        },
+        {
+          "width": 1080,
+          "src": "/images/generated/webp/04-1080-93a864be.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/04-320-f3252e06.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/04-480-ecb56b68.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/04-768-09b7b1c1.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/04-1024-dddb98a7.jpg"
+        },
+        {
+          "width": 1080,
+          "src": "/images/generated/jpeg/04-1080-3bf58482.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/05.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwH/xAAiEAACAQMEAgMAAAAAAAAAAAAAAQIDERITISJRBDEyQWL/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQQC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AK6dTSll0cXmz11K/FmNRLN+xLLpkcUqpyzk32BlStl9gKAs3ze6Fv8ApCzms3sLmujUJRRfP5AJRqLL0AB//9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/05-320-ca4183f6.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/05-480-959ff09b.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/05-768-4e6c2852.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/05-864-6cd3481f.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/05-320-33708304.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/05-480-d2ca8afa.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/05-768-f8e69fb5.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/05-864-8561358d.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/05-320-b6936f63.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/05-480-a9fdffac.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/05-768-cdd24bb2.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/05-864-ebab3236.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/06.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAhEAACAgIBBAMAAAAAAAAAAAABAgARAxIhBBNBYSJCUf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARES/9oADAMBAAIRAxEAPwC8BG9GCle5MGyZMRZBVGuYrOGA7oFzl6b4oOvmJMend8td03EeljWmROnIrzc4226Nqfcv+vy5mG5Wq4hiSs2uTuA8/kT20UjVRQEQs0yv/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/06-320-3156aaa5.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/06-480-93663a9e.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/06-768-ca0ada79.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/06-864-d4f3c264.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/06-320-e9f64d59.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/06-480-122b812d.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/06-768-721b88ac.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/06-864-bfd44970.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/06-320-86454c52.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/06-480-c12ce104.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/06-768-a41d71c3.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/06-864-6545624e.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/07.jpeg": {
+    "width": 720,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAkABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBQMB/8QAIBAAAgICAgMBAQAAAAAAAAAAAAECAxESBTEEIUFRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARAUH/2gAMAwEAAhEDEQA/ANX0eNOPf0yrH5FXJSmtnXjKR0fKa172wksGC0WwUauSqur3j1+AzVt4srya5PEI5kZ3M071JRerl2inK+UcTi37Xw6W3OzGW3gcOqtNlnjVqtQUv6wdHJfQMFSSWOiIBpIyYABP/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/07-320-8d7ed2f0.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/07-480-34d5f51b.avif"
+        },
+        {
+          "width": 720,
+          "src": "/images/generated/avif/07-720-c5573e54.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/07-320-c5498640.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/07-480-a9f7d2d0.webp"
+        },
+        {
+          "width": 720,
+          "src": "/images/generated/webp/07-720-7451d1bd.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/07-320-abb3072d.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/07-480-1ccbec46.jpg"
+        },
+        {
+          "width": 720,
+          "src": "/images/generated/jpeg/07-720-6f9fc79b.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/08.jpeg": {
+    "width": 720,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAkABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQIG/8QAIhABAAICAgEEAwAAAAAAAAAAAQACAxEEIRITFDFBInGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgEA/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD1FtBtPiULc7E5fTa6fpkmXlFsaB8kxsRktnWxsH+QWrGuosSKj1EzK3uLUevGxIq8qrktqullHI9OmRW5FjxKkNh7Gxx81731dNH1EyMfITa2dxLBru3ZplZPy/URGjh6YiJGf//Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/08-320-f963cef6.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/08-480-2a43605b.avif"
+        },
+        {
+          "width": 720,
+          "src": "/images/generated/avif/08-720-d2b1d7ba.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/08-320-6e118ed8.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/08-480-32f601f1.webp"
+        },
+        {
+          "width": 720,
+          "src": "/images/generated/webp/08-720-78bd8d9b.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/08-320-7d5af3fc.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/08-480-7fdfe9e2.jpg"
+        },
+        {
+          "width": 720,
+          "src": "/images/generated/jpeg/08-720-d407a74c.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/09.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQBAwIFBv/EACEQAAICAgICAwEAAAAAAAAAAAEDAAIRIQQSIjEFExRR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMBBP/EABgRAQEBAQEAAAAAAAAAAAAAAAEAEQIx/9oADAMBAAIRAxEAPwB9NFEHuSJiV5Pj6/sd/Mo+riVXpVbRQW8TOZ5T2uIypWKbMIywKFRXRMIMt25JfN5brhdGW7TY/Hch7WWW/sOo0TLePxlLZ9laDtGTgHIGDKqJEKltL0y0XO9bMJD/ACrgwglf/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/09-320-a48cdba0.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/09-480-7df7706c.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/09-768-cd7b0434.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/09-864-e68d80c2.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/09-320-ffa95dc2.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/09-480-d29dd44a.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/09-768-461776a3.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/09-864-1ef271c9.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/09-320-198767b2.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/09-480-be600079.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/09-768-247f92e2.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/09-864-d1dc83f7.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/10.jpeg": {
+    "width": 1080,
+    "height": 720,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBf/EAB0QAAICAgMBAAAAAAAAAAAAAAECAAMEERIhMUH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwCmNrhojUX2AoVQ6aVxquKDl88E5uZaKMhxokN2INhNbL13jKW717EU2s2Opbo68iZnFr//2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/10-320-919f0632.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/10-480-0861dcf1.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/10-768-2ac8ea1a.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/10-1024-a03288d6.avif"
+        },
+        {
+          "width": 1080,
+          "src": "/images/generated/avif/10-1080-a4fc38cc.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/10-320-497e8f8e.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/10-480-2bcaa1de.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/10-768-ff962d93.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/10-1024-e48c3307.webp"
+        },
+        {
+          "width": 1080,
+          "src": "/images/generated/webp/10-1080-8ad7d075.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/10-320-be5366b6.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/10-480-c8775a65.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/10-768-f7ab7fc4.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/10-1024-370649d9.jpg"
+        },
+        {
+          "width": 1080,
+          "src": "/images/generated/jpeg/10-1080-5e609061.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/11.jpeg": {
+    "width": 864,
+    "height": 1080,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMCBAYF/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIAAwQRIgUSIUExQlH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAwQC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAhL/2gAMAwEAAhEDEQA/AG0Y5VOC7kxybtUgsPUXj5y2Ud9Z0vuKw8oW3WOvgiReao03IpP2HmEbaxcbMISBl6bmr0RZpfydvpgJoLkDkfmZkGaTprkYYEo7hfNW3bQ1CVrrCDCLxrX/2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/11-320-9da5ba31.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/11-480-eedf9810.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/11-768-39a47677.avif"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/avif/11-864-b97c3ba9.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/11-320-8703a880.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/11-480-4c16ad18.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/11-768-833d7a8e.webp"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/webp/11-864-0357c6c7.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/11-320-fb228068.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/11-480-e9ef22e3.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/11-768-f151a71e.jpg"
+        },
+        {
+          "width": 864,
+          "src": "/images/generated/jpeg/11-864-e0720208.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/12.jpeg": {
+    "width": 3200,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQBAwIFBv/EACEQAAICAgICAwEAAAAAAAAAAAEDAAIREgQhIjEFExRR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMBBP/EABgRAQEBAQEAAAAAAAAAAAAAAAEAEQIx/9oADAMBAAIRAxEAPwB9NFEHckTErzbx9f2O/mUfVxKb0qtooLeJnM8p7XEZUrFOzCNMChUV6JhBlu3JL5vLdcLoy202Px3Ie1llv2Go6JlvH4yls+ytBtGSQDkDEqokQqWUvTLRc99dmEh52rg5hBK//9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/12-320-54cf6542.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/12-480-3d4c509a.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/12-768-f0718d99.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/12-1024-71ea9a3b.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/12-1280-9f637b53.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/12-1600-ee9734d6.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/12-1920-9c9e0fc1.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/12-320-801782a6.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/12-480-6cc33d33.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/12-768-3d98dcf1.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/12-1024-361d3b9e.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/12-1280-a529788f.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/12-1600-53a9651d.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/12-1920-88218d71.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/12-320-a5c57dec.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/12-480-8ee20caa.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/12-768-4461a1db.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/12-1024-36cc2d1a.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/12-1280-efce84ce.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/12-1600-da396ef9.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/12-1920-cac731b4.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/13.jpeg": {
+    "width": 4000,
+    "height": 2668,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEAf/EAB4QAQACAgIDAQAAAAAAAAAAAAEAEQIDIUEEEiIx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AfKtbSs0rYAXT3F8P61447uUO5a44WeoVBCpHXjhrA4CEp166MuRv8hFEf//Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/13-320-0bf17be5.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/13-480-953b6dd1.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/13-768-eb23e5a3.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/13-1024-954df5e3.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/13-1280-e923377d.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/13-1600-88e89ddf.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/13-1920-25bf4603.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/13-320-ed573233.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/13-480-29844935.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/13-768-35b99591.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/13-1024-e3c04161.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/13-1280-ec9cfe28.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/13-1600-661b0f96.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/13-1920-6cf83b2a.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/13-320-12425ec3.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/13-480-0ff4c1ac.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/13-768-72d275a5.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/13-1024-54fe103b.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/13-1280-1cf41be3.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/13-1600-02e72c3b.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/13-1920-a64955e4.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/14.jpg": {
+    "width": 2668,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAkABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECBAMF/8QAIxAAAgIBAwMFAAAAAAAAAAAAAAECAxEEEiEUMUETIzNSYf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREx/9oADAMBAAIRAxEAPwD0MNPuWUl9zFp9RZdbKM44j4NHSxwsNnNt2ypcRllgVURreV3ARju0l3rx2Twly/02Qlyl5L6lT6huKOG22M09vD7lvRsrg8OTfALRl7aWAaxFbfmZKAFInwACj//Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/14-320-0991f444.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/14-480-ccf5ac06.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/14-768-40adba23.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/14-1024-0f99c794.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/14-1280-c169715d.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/14-1600-1d1ae6e3.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/14-1920-7135052b.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/14-320-cb9e80e6.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/14-480-f575079c.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/14-768-7e1bab67.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/14-1024-c25b34c5.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/14-1280-0c6a2434.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/14-1600-deba130c.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/14-1920-bea64447.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/14-320-b689e1d7.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/14-480-45fce234.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/14-768-228a1e75.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/14-1024-9aba2487.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/14-1280-60bde3d0.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/14-1600-bed8aa8e.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/14-1920-82b664ce.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/15.jpg": {
+    "width": 4000,
+    "height": 2668,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAhEAACAgECBwAAAAAAAAAAAAABAgADEQQhEhMjQVFhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAAD/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwCzThWTLDHyNb09wciGnrULtI1dBuxwsVA7eZKKUnMBEJhau2pHZ8+oRkr/2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/15-320-5dbac115.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/15-480-b4d5a7fe.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/15-768-ecf99fe3.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/15-1024-4e240834.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/15-1280-0eeef935.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/15-1600-edea407c.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/15-1920-a74addbe.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/15-320-5ffd620f.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/15-480-ad0cbdbe.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/15-768-90c97ad8.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/15-1024-eea122f9.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/15-1280-79f47a09.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/15-1600-696376a4.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/15-1920-300210d7.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/15-320-96e9482f.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/15-480-9a28fce6.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/15-768-ce0a5d42.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/15-1024-f525e216.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/15-1280-63184b30.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/15-1600-c0191898.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/15-1920-17181bee.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/16.jpg": {
+    "width": 3200,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAhEAACAQQCAgMAAAAAAAAAAAABAgADERIhE2EEQSJCUf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARES/9oADAMBAAIRAxEAPwC8BG6MFLdyYNUqUiyasbbi1YMBygXnL03xQcfcSY+O71bcpvEeljWFRPHIt7vONlmjYnuX/X5bmG2tiNQxJWbGpyA7/IntgpGKiwEQs0yv/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/16-320-b4fe0d67.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/16-480-570f71c1.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/16-768-0abae463.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/16-1024-712fe04f.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/16-1280-5746d08a.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/16-1600-647f716b.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/16-1920-0c3e8395.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/16-320-040d58b3.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/16-480-51f314a3.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/16-768-0df2d50e.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/16-1024-7dc9b5ae.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/16-1280-0e05fd6a.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/16-1600-b5eb3d3c.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/16-1920-611ebb82.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/16-320-a3020683.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/16-480-ccf36fe3.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/16-768-00179d62.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/16-1024-0f315895.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/16-1280-de854bfc.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/16-1600-da9bb0c5.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/16-1920-ba6ec12c.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/17.jpg": {
+    "width": 4000,
+    "height": 2668,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABwQAAIDAQEBAQAAAAAAAAAAAAECAAMRBEEhMf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAMAwEAAhEDEQA/ANaOqtsGS6oo5+fknqppC4EAiOjVIzqSMMz2LHtIsYoVwQk3X0iilbF99hDJP//Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/17-320-bf1d5504.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/17-480-429b6306.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/17-768-fe9c0cc5.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/17-1024-a144d938.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/17-1280-90a3c12c.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/17-1600-288aeb4a.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/17-1920-0c929e6c.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/17-320-71f94163.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/17-480-3985b121.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/17-768-9a5b5565.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/17-1024-8d9d93a1.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/17-1280-9bf3b533.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/17-1600-a2dbd4fb.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/17-1920-fda45823.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/17-320-28bb503c.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/17-480-a1d67a6c.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/17-768-30be876e.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/17-1024-a3f83411.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/17-1280-1b23ebec.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/17-1600-9bc2e9ff.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/17-1920-29a2a274.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/18.jpg": {
+    "width": 4000,
+    "height": 2668,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBf/EAB8QAAIDAAEFAQAAAAAAAAAAAAECAAMRBBITIiMxcf/EABYBAQEBAAAAAAAAAAAAAAAAAAADBP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDTIK0Vs0H7CfTo3BFq5K2etxEsqV10DpmWL1zuyjWHRv7KJyaxX5hjKCv/2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/18-320-eb0ff837.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/18-480-2fbabbe6.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/18-768-7f403ec3.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/18-1024-b0254c02.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/18-1280-1699a1ad.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/18-1600-c45dde6b.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/18-1920-6fa53382.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/18-320-80b76460.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/18-480-3633fb03.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/18-768-2f51759e.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/18-1024-6dabe54c.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/18-1280-9800aa11.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/18-1600-2fee6db9.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/18-1920-0323e77c.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/18-320-d8c0e2d5.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/18-480-8cca9ae8.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/18-768-feb17ea6.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/18-1024-30c74dc3.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/18-1280-85e4c587.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/18-1600-37489b51.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/18-1920-54038a83.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/19.jpg": {
+    "width": 2668,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAkABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEAgX/xAAhEAACAgICAQUAAAAAAAAAAAABAgADESEEMWESExRBUf/EABYBAQEBAAAAAAAAAAAAAAAAAAEABP/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8Av7OejjEzs2CZo5anChTgkzM9b58Y3McaEjbWT5iTPHZGVmGj1EYK9X1paAzg6PU4VUd2PS/klTcLHYCSuptLk1uViXXx3fkBRZlCdeIk0a5BliNfYiVESpdlsGDNFlrDWoiKQDsQ2TERDS//2Q==",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/19-320-becbcbbe.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/19-480-8340c8d1.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/19-768-77862711.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/19-1024-e2e69e6f.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/19-1280-6f09b22b.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/19-1600-36e1dd16.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/19-1920-9cd1ef67.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/19-320-1cb493dd.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/19-480-974e5a27.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/19-768-d104b8e8.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/19-1024-3c3dfacf.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/19-1280-25a4fac5.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/19-1600-33e81b03.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/19-1920-a3d2faa9.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/19-320-029adc9e.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/19-480-d8bf5e1f.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/19-768-b8615dd3.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/19-1024-629345be.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/19-1280-355f50cc.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/19-1600-48d7e480.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/19-1920-fb6341f4.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/20.jpg": {
+    "width": 2668,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAkABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEAQL/xAAhEAACAgEEAgMAAAAAAAAAAAABAgARIQMEEjEUMiJBUf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwT/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AuUUdPZknHD2xJknwFYYa53dEllHK/hOZtXhmX9iZV9Rdm4iqsdYjaBSMGct3YHrFQiNqrS/UspDNRNEYGJJJdNgnGJpVSBV8oiGjaoq6YoDPcqUSvUREUhqAKDQqIiBf/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/20-320-e0d6dc19.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/20-480-3d0c50d2.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/20-768-d90858af.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/20-1024-0abfc12f.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/20-1280-57262bf8.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/20-1600-70909e4c.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/20-1920-b1ccf3a1.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/20-320-1f624b0d.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/20-480-fcb2fe70.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/20-768-18dcbef3.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/20-1024-6bf9cd14.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/20-1280-5493b659.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/20-1600-2ef24588.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/20-1920-f47524b1.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/20-320-bb1b8d0a.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/20-480-22ab6721.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/20-768-c11c74b7.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/20-1024-246b3bf6.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/20-1280-56563da1.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/20-1600-5012e812.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/20-1920-7f7ff710.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/21.jpg": {
+    "width": 2668,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAkABgDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQID/8QAIhAAAgIBAwQDAAAAAAAAAAAAAAECEQMSEyEEIjFhBSNC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgABA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AtjBXvNt13t34JsZXBOznpWY0yPvS9gxplvavyBRiD8fHdtTj45LDXhjGpRaIGPLs8w4OXUdZKWpSd0GwtWO5CTqIK2HXOON8LgFItjk23Ejzbbl7AELWvrYAJP/Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/21-320-bb65e97c.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/21-480-ea8158c4.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/21-768-c2e1c6f2.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/21-1024-ddf31859.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/21-1280-711b386d.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/21-1600-ab38f82f.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/21-1920-ef2e9698.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/21-320-0bc96153.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/21-480-0dbd90e1.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/21-768-6e29a25e.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/21-1024-e4428789.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/21-1280-b4ff7974.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/21-1600-9ff8796a.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/21-1920-b3cf12c0.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/21-320-d83b6fba.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/21-480-b27cd580.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/21-768-2bc24c74.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/21-1024-68588dce.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/21-1280-582b52d5.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/21-1600-87eba428.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/21-1920-6cee159c.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/22.jpg": {
+    "width": 3200,
+    "height": 4000,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAeABgDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMCBAYF/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIAAwQRIgUSIUExQlH/xAAYAQACAwAAAAAAAAAAAAAAAAADBAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEQIS/9oADAMBAAIRAxEAPwBtGOVTgNyY5N2KQWHqLx85bKO+s6X3FYeULbrHXwREfNMabkUn7DzCNtYuNmEuRGXpuavRFml/J2+mKTQXIHI/MzAM0vTXIwwIx3A+atO2hqErXWEGEHjWv//Z",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/22-320-cb46b5b3.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/22-480-56c4492d.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/22-768-c85b3631.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/22-1024-4d27472d.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/22-1280-d4af6f54.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/22-1600-d709e9f8.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/22-1920-75db82af.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/22-320-7807f49a.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/22-480-61fcf0af.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/22-768-d79bede2.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/22-1024-3105c06e.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/22-1280-1c93b6eb.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/22-1600-7ae89750.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/22-1920-e5fa5e92.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/22-320-839fdf52.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/22-480-68d91997.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/22-768-2091ddf5.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/22-1024-a57ecf2f.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/22-1280-eee78e9e.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/22-1600-43cbcf40.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/22-1920-c0bc7576.jpg"
+        }
+      ]
+    }
+  },
+  "/imgs/23.jpg": {
+    "width": 4000,
+    "height": 2668,
+    "placeholder": "data:image/jpeg;base64,/9j/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAAQABgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAHhAAAgICAgMAAAAAAAAAAAAAAQIAAxIxESEEIlH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwBXQqJz8llIakMnUmVtceuo8SxizVHg47mfcitaC1ark65daiZb7QAREPJV/9k=",
+    "sources": {
+      "avif": [
+        {
+          "width": 320,
+          "src": "/images/generated/avif/23-320-869060cc.avif"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/avif/23-480-74172733.avif"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/avif/23-768-319dca81.avif"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/avif/23-1024-c71668cb.avif"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/avif/23-1280-8607b3a0.avif"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/avif/23-1600-161f43eb.avif"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/avif/23-1920-d70b1146.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 320,
+          "src": "/images/generated/webp/23-320-295ec9b2.webp"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/webp/23-480-1ecbabef.webp"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/webp/23-768-8e404bf2.webp"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/webp/23-1024-86fd6b07.webp"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/webp/23-1280-6fbd6262.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/webp/23-1600-33f7ef14.webp"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/webp/23-1920-d909d8aa.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "width": 320,
+          "src": "/images/generated/jpeg/23-320-c04402e6.jpg"
+        },
+        {
+          "width": 480,
+          "src": "/images/generated/jpeg/23-480-748033ed.jpg"
+        },
+        {
+          "width": 768,
+          "src": "/images/generated/jpeg/23-768-6ad2ea52.jpg"
+        },
+        {
+          "width": 1024,
+          "src": "/images/generated/jpeg/23-1024-d70edf07.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "/images/generated/jpeg/23-1280-f62ff562.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "/images/generated/jpeg/23-1600-9d0c88c4.jpg"
+        },
+        {
+          "width": 1920,
+          "src": "/images/generated/jpeg/23-1920-3d55ff76.jpg"
+        }
+      ]
+    }
+  }
+}

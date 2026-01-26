@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import LazyImage from "./LazyImage";
-import { preloadImages } from "../utils/imageUtils";
+import ResponsiveImage from "./ResponsiveImage";
 
 const images = [
   "/imgs/15.JPG",
@@ -40,13 +39,8 @@ function HeroImageSkeleton() {
 }
 
 export default function HeroCarousel() {
-  const [visibleIndices, setVisibleIndices] = useState([0, 1]);
+  const [visibleIndices, setVisibleIndices] = useState([0]);
   const [loadedIndices, setLoadedIndices] = useState(() => new Set());
-
-  // Preload all hero images on mount
-  useEffect(() => {
-    preloadImages(images);
-  }, []);
 
   const handleImageLoad = useCallback((index) => {
     setLoadedIndices((prev) => {
@@ -67,15 +61,10 @@ export default function HeroCarousel() {
   const handleSlideChange = useCallback(
     (index) => {
       revealIndex(index);
-      // Preload next image
       const nextIndex = (index + 1) % images.length;
-      if (!visibleIndices.includes(nextIndex)) {
-        const img = new Image();
-        img.src = images[nextIndex];
-      }
       revealIndex(nextIndex);
     },
-    [revealIndex, visibleIndices]
+    [revealIndex]
   );
 
   return (
@@ -103,14 +92,12 @@ export default function HeroCarousel() {
               <div key={i} className="relative h-full bg-gray-900 overflow-hidden">
                 {!isLoaded && <HeroImageSkeleton />}
                 {isVisible && (
-                  <LazyImage
-                    src={src}
+                  <ResponsiveImage
+                    imageKey={src}
                     alt={`Salon ${i + 1}`}
                     className="h-full w-full object-cover"
-                    loading={i < 2 ? "eager" : "lazy"}
-                    fetchpriority={i === 0 ? "high" : "auto"}
+                    priority={i === 0}
                     sizes="100vw"
-                    observerMargin="100px"
                     onLoad={() => handleImageLoad(i)}
                   />
                 )}
