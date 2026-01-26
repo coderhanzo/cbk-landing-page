@@ -68,7 +68,7 @@ export default function HeroCarousel() {
   );
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
+    <section className="relative min-h-[calc(100vh-5rem)] lg:min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Background Carousel */}
       <div className="absolute inset-0 z-0">
         <Carousel
